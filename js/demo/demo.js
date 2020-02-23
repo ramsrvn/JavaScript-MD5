@@ -21,7 +21,7 @@
     .getElementById('calculate')
     .addEventListener('click', function(event) {
       event.preventDefault()
-      document.getElementById('result').value = md5(input.value)
+      document.getElementById('result').value = md5(input.value,true)
     })
   input.value = '日本'
 })()
